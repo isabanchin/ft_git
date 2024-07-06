@@ -1,0 +1,2679 @@
+[
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add media",
+        "content_type": [
+            "content",
+            "media"
+        ],
+        "codename": "add_media"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change media",
+        "content_type": [
+            "content",
+            "media"
+        ],
+        "codename": "change_media"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete media",
+        "content_type": [
+            "content",
+            "media"
+        ],
+        "codename": "delete_media"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view media",
+        "content_type": [
+            "content",
+            "media"
+        ],
+        "codename": "view_media"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add comment",
+        "content_type": [
+            "content",
+            "comment"
+        ],
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change comment",
+        "content_type": [
+            "content",
+            "comment"
+        ],
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": [
+            "content",
+            "comment"
+        ],
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view comment",
+        "content_type": [
+            "content",
+            "comment"
+        ],
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add post",
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change post",
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete post",
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view post",
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "add_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "change_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "delete_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view email address",
+        "content_type": [
+            "account",
+            "emailaddress"
+        ],
+        "codename": "view_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "add_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "change_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "delete_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view email confirmation",
+        "content_type": [
+            "account",
+            "emailconfirmation"
+        ],
+        "codename": "view_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "add_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "change_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "delete_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social account",
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "codename": "view_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "add_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "change_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "delete_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social application",
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "codename": "view_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "add_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "change_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "delete_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view social application token",
+        "content_type": [
+            "socialaccount",
+            "socialtoken"
+        ],
+        "codename": "view_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add django job",
+        "content_type": [
+            "django_apscheduler",
+            "djangojob"
+        ],
+        "codename": "add_djangojob"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change django job",
+        "content_type": [
+            "django_apscheduler",
+            "djangojob"
+        ],
+        "codename": "change_djangojob"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete django job",
+        "content_type": [
+            "django_apscheduler",
+            "djangojob"
+        ],
+        "codename": "delete_djangojob"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view django job",
+        "content_type": [
+            "django_apscheduler",
+            "djangojob"
+        ],
+        "codename": "view_djangojob"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add django job execution",
+        "content_type": [
+            "django_apscheduler",
+            "djangojobexecution"
+        ],
+        "codename": "add_djangojobexecution"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change django job execution",
+        "content_type": [
+            "django_apscheduler",
+            "djangojobexecution"
+        ],
+        "codename": "change_djangojobexecution"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete django job execution",
+        "content_type": [
+            "django_apscheduler",
+            "djangojobexecution"
+        ],
+        "codename": "delete_djangojobexecution"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view django job execution",
+        "content_type": [
+            "django_apscheduler",
+            "djangojobexecution"
+        ],
+        "codename": "view_djangojobexecution"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$1P2FXGpCviVJ0rKobRz9G9$s1LL72nSEwSUBDicRkhLY47NcPTkLtFFJICRhfkw99M=",
+        "last_login": "2024-07-06T09:45:00.486Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "isabanchin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-03T13:18:32.354Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$GBFoz0cY5rrm3V6nMlKfJt$ELN2m9iYDEuYiFU6yBy7eK12SmacH3Ul3byDm7iRpz0=",
+        "last_login": "2024-06-05T21:30:52.491Z",
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "User-1",
+        "last_name": "Юзеров-Первый",
+        "email": "isabanchin@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-13T10:11:17.722Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$slQf0L9vxQ34KSiJPF6vZM$MChhK95sQSQFMGUjtaPdPxzOMYL5dCAz3+FgUE0pSmI=",
+        "last_login": "2024-06-05T21:30:23.298Z",
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "User-2",
+        "last_name": "Юзеров-Второй",
+        "email": "2@qwe.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-05-13T10:13:13.785Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$fp295h4V9yVTLh2NYWVzh1$3VibJwRyscJnQtbMGEGeMbaDz9GZ51Qb1bWwewIGpzU=",
+        "last_login": "2024-06-04T10:16:40.019Z",
+        "is_superuser": false,
+        "username": "user3",
+        "first_name": "",
+        "last_name": "",
+        "email": "sabanchini@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-04T10:13:26.226Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "09eqzsv5ql0dc6wof5xnblr90ht1ol2j",
+    "fields": {
+        "session_data": ".eJxVj8tuwyAQAP9lzxbiFQM-9t4vqCprgU1NW0NksJooyr83tLnkttqZHWmvgCGUPbcZ97ZQbilgSyXPK7WlxArT2xX-Z5jghLX-lC3CANhgEkaYUWrnBLNWjFINsFfaMq50lzGuKcPtfYC_9tzRnHpGwNPOY_ii3EH8xPxRWCi5bcmzrrAHrey1RPp-ebhPgQXrcr929iAixXAM0Ul7NM4p0oTopfakNGnvR4fBW2F55AelpRBBGW-QAkfPe7RSrf19Op_SdoGJ334BN1Ng0A:1sEyit:WhumsnN6qdeKoy60fZexeLT1Q8ZPsxqPitGlI0UdCI0",
+        "expire_date": "2024-06-19T22:03:11.892Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6bdfmp6jw2z79pnq5b0fg4hgurmya56b",
+    "fields": {
+        "session_data": ".eJxVj8FuwyAMQP_F5yiCQArkuPu-YJoiY9yFbYEqEK1V1X9f2XrpzfJ7fpKvgER5T3XGvS6caiSsMad55brkUGB6u8L_DBOcsJSfvAXoACtM0kgzKifGQ2-tEoPrYC-8JVz5LmNYY4Lbewd_7bmhObaMhKedR_ri1ED4xPSRe8qpbtH3TekftPSvOfD3y8N9CixYlvu1s6MMHOhIwQ32aJxTrBnRD9qz0qy9Pzgkb6UVQYxKD1KSMt4gk0AvWrRwKe19Pp_idoFJ3H4BNltgzw:1sEcMq:_P8kPPnjq2pJDgUWioSQc0gUx7jnb4jye5km6TdQ6J0",
+        "expire_date": "2024-06-18T22:10:56.896Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6yswcr9uno70xhpxhyctcoycwu3z9w88",
+    "fields": {
+        "session_data": ".eJxVj0FuxCAMRe_idYQMCQGy7L4nqKrIAaeh7cAoELXVaO7eoZ3N7L79n5_kC5D3-Uh1pqNunGr0VGNO84nrlkOB6eUC_xkmOFMpX3kP0AFVmKSRZnCjQhSIpjdjB0fhPdGJb3CLPVxfO_hzz22eY9M4eNgt5D84tSK8U3rLwudU97iIhoh7W8RzDvz5dGcfBBuV7XYtZXBaSsXSoFXGaNWvfsVBaSfJq17pZfUsnQlERrsBkUNPw2it5dGibtLCpbT3-fsc9x-Y8PoLnPterA:1sERDc:z2010pf4lrZbG5x3eFVUKBLfp8ERwBZY--vzyXAcJbI",
+        "expire_date": "2024-06-18T10:16:40.023Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jbn1cjh9b06fnfv1b11fe7gkpms2hnjt",
+    "fields": {
+        "session_data": ".eJxVj8FuwyAMQP_F5wgBIQ3kuPu-YJoiY9yFbYEqEK1V1X9f2XrpzfJ7fpKvgER5T3XGvS6caiSsMad55brkUGB6u8L_DBOcsJSfvAXoACtMatRSD05JKczBusHYDvbCW8KV7zaGNSa4vXfwF58bmmPrKHjaeaQvTg2ET0wfWVBOdYteNEU8aBGvOfD3y8N9CixYlvu1s4MKHOhIwWl7HJ3r2TCi18Zzb9h4f3BI3iorgxx6o5WifvQjMkn0skULl9L-5_MpbheY5O0XdSFg_A:1sQ1yW:qYN2TzVKLZVx7tAMw2vb6q5qnorngGn3Z58JUxG5S1s",
+        "expire_date": "2024-07-20T09:45:00.491Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r5emwmhpkwcf04nuylztitl89j1g5u00",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAUBe_iGlneQmxK-pwh-ltwANlSnFSIu0OkFNC-mXkvNcK25nFrsowzq4uy6vS7IdBDyg74DuVWNdWyLjPqXdEHbXqoLM_r4f4dZGj5W6fYWRamiTi5OPUpeQkCgC6g-CAB8ZyAMNpo2HQ-OGvJ99iDkAE06v0BCZk4tQ:1sD0Vq:TFPmASoN8EFmbBo5DabjSqyHvKpWNdFQNqNe7k74lmA",
+        "expire_date": "2024-06-14T11:33:34.895Z"
+    }
+},
+{
+    "model": "content.post",
+    "pk": 24,
+    "fields": {
+        "user": [
+            "user2"
+        ],
+        "category": "Tn",
+        "time": "2024-05-22T20:19:07.835Z",
+        "title": "Brawl Stars",
+        "text": "Дата выпуска компьютерной игры – декабрь 2018 г. Создателями игры является команда программистов Supercell, которые разработали не менее популярную стратегию Clash of Clans и Clash Royale. Несмотря на то, что компьютерных продуктов у компании не так много, каждая игрушка занимает лидирующие позиции в рейтинге новинок. Изначально игра была доступна только пользователям \"яблочных\" телефонов, позже появилась и на платформе Android, а теперь еще есть возможность скачать игрушку на персональный компьютер."
+    }
+},
+{
+    "model": "content.post",
+    "pk": 36,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "category": "SM",
+        "time": "2024-05-29T18:17:15.180Z",
+        "title": "Польза раннего изучения иностранного языка",
+        "text": "Польза раннего изучения иностранного языка\r\nЗнание иностранных языков - пропуск в мир больших возможностей. Можно с трудом представить успешного человека, который говорит исключительно на родном языке. Начинать изучение лучше в самом раннем возрасте, ведь именно в детстве формируется тип мышления, и многие знания усваиваются автоматически. Лучший метод - отправить ребенка в детский языковой лагерь, где он не только будет усваивать уроки, но и заведет новых друзей.\r\n\r\nПреимущества раннего освоения иностанной речи\r\nЕсли вы хотите, чтобы ваш ребенок преуспел в изучении языков, отдайте его на лингвистические уроки в дошкольном возрасте. Начав изучать слова и основы грамматики в три-четыре года, малыш привыкает к \"иностранному\" образу мышления и зародит склонность к изучению языкам и обучению в целом.\r\n\r\nИменно в дошкольном и младшем школьном возрасте дети наиболее любознательны. Они с жадностью поглощают информацию и легко ее усваивают. Чем раньше ребенок начнет обучение, тем лучше. Для этого ему даже необязательно уметь читать и писать: существуют методики аудирования, которые учат воспринимать информацию на слух. Визуальные образы также помогают в учебе. Преподаватель может показывать картинки с животными и предметами и произносить их названия - так ребенок научится ассоциативному мышлению и выучит основы языка.\r\n\r\nПомогайте ребенку адаптироваться к языковой среде: берите с собой в путешествия заграницу, а также разговаривайте дома на английском или другом знакомом вам языке, который он изучает. Дети, выросшие в интернациональных семьях, с рождения являются билингвами, что облегчает процесс обучения в дальнейшем.\r\n\r\nДети не любят официальную атмосферу и принудительное обучение. Когда учеба проходит в комфортной игровой обстановке с постоянным общением со сверстниками, знания усваиваются лучше, и ребенок чувствует себя свободнее.\r\n\r\nЯзыковой лагерь - это отличный вариант обучения и досуга, при желании его можно дополнить отдыхом в Беларуси. Ребенок будет получать качественное полноценное питание, а также возможность заниматься спортом и творчеством. В таких местах дети находятся под постоянным присмотром и могут получить необходимую помощь в любой момент."
+    }
+},
+{
+    "model": "content.post",
+    "pk": 37,
+    "fields": {
+        "user": [
+            "user1"
+        ],
+        "category": "Kh",
+        "time": "2024-05-29T18:20:33.450Z",
+        "title": "Интересные факты о туризме",
+        "text": "Путешествия по миру – самый лучший вариант времяпрепровождения. Это также отличный опыт, который останется с вами навсегда, благодаря впечатлениям и ярким событиям, которые вы получите во время поездок.\r\nКормление голубей на улицах Сан-Франциско, штат Калифорния, является незаконным. В принципе это логично, ведь перекормленные голуби так и норовят нагадить на головы щедрым туристам.\r\n3000 евро ежедневно приносит фонтан Треви в Риме. Эта сумма складывается из монет, брошенных туристами «на счастье». Каждую ночь фонтаны чистят, а полученные деньги отправляют благотворительным организациям.\r\nИндонезия – самая богатая страна мира на вулканы. В стране насчитывается порядка 400 вулканов, сотня из которых – действующие. Самый известный и популярный среди туристов вулкан Кракатау, высота которого составляет 813 м, а диаметр кратера – 120м. Последнее извержение гиганта было зафиксировано в 2011 году.\r\nВ Лас Вегасе, штат Невада, самое большое количество гостиничных номеров. Их число достигает 150 тысяч, и если вы решитесь провести в каждой комнате по одной ночи, вам не хватит и четырех веков на это!\r\nСамый дорогой гостиничный номер – королевский пентхаус в отеле President Wilson, Женева (Швейцария). Одна ночь обойдется в 80000$. Площадь люкса составляет 1680 квадратных метров и включает в себя 12 номеров и 12 ванных комнат, а также собственную террасу, конференц-зал, библиотеку, спортзал и бильярдную. Из окон номера открывается живописный вид на Женевское озеро.\r\n1/3 всех аэропортов мира находятся в США. Их общее количество составляет 13513, на втором месте находится Бразилия — 4093, а замыкает тройку лидеров Мексика, на территории которой базируются 1714 аэропортов.\r\nИз-за строгих мусульманских законов на Мальдивах Библия запрещена даже для туристов. Христианства на островах не существует официально, а иностранцам- не мусульманам запрещено выражать свою веру публично.\r\nВ 1930 году стюардессы должны были весить не более 52 кг. Сегодня кандидатки на эту должность также должны соответствовать некоторым критериям, но уже не таким жестким. К примеру, максимальный вес стюардесс в Delta Air Lines (США) не должен превышать 65 кг. Большинство авиаперевозчиков вводят ограничения по размеру одежды, как правило, не более 44-46. Однако, во Франции максимально допустимый объем бедер бортпроводниц составляет 100 см, а в China Southern Airlines (Китай) не принимают на работу девушек, чей размер обуви больше 36.\r\nВ любой момент дня в небе над США пролетает в среднем 61 000 человек. Мы уже писали о том, что Америка является лидером по количеству аэропортов, а средний поток пассажиров крупнейших аэровокзалов достигает 70 млн ежедневно.\r\nМенее, чем 1 % населения Земли рискнул побывать в Антарктиде. Общее население континента колеблется между 4000 человек летом и 1000 человек зимой. В основном это ученые. Хотя в декабре 2013 года «Металлика» выступила здесь с концертом, таким образом закрепив за собой статус единственной в мире музыкальной группой, выступившей на всех континентах. А Эмилио Маркос Пальма стал первым человеком, который родился на самом удаленном Южном материке."
+    }
+},
+{
+    "model": "content.post",
+    "pk": 38,
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "category": "Tr",
+        "time": "2024-06-04T22:31:44.737Z",
+        "title": "dqwdqwd",
+        "text": "dqwdqw"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 63,
+    "fields": {
+        "post": 36,
+        "file": "files/shakira_U1Ce8XQ.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 64,
+    "fields": {
+        "post": 36,
+        "file": "files/IMG_8442_LAFcnWp.mov",
+        "file_type": "video"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 65,
+    "fields": {
+        "post": 36,
+        "file": "files/apps_nugvgfo.py",
+        "file_type": "file"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 66,
+    "fields": {
+        "post": 37,
+        "file": "files/ariana-grande_g4LXfyP.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 67,
+    "fields": {
+        "post": 37,
+        "file": "files/beionce_KoGTgW5.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 68,
+    "fields": {
+        "post": 37,
+        "file": "files/sample-5s_eRt5Tvz.mp4",
+        "file_type": "video"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 69,
+    "fields": {
+        "post": 37,
+        "file": "files/forms.py",
+        "file_type": "file"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 70,
+    "fields": {
+        "post": 24,
+        "file": "files/uma-turman_Lg4lxWo.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 71,
+    "fields": {
+        "post": 24,
+        "file": "files/keti-perri_TCenFpJ.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 72,
+    "fields": {
+        "post": 24,
+        "file": "files/IMG_8442_WdlxQ4n.mov",
+        "file_type": "video"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 73,
+    "fields": {
+        "post": 24,
+        "file": "files/apps_ypktKQn.py",
+        "file_type": "file"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 77,
+    "fields": {
+        "post": 38,
+        "file": "files/sample-5s_2PkZM83.mp4",
+        "file_type": "video"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 78,
+    "fields": {
+        "post": 38,
+        "file": "files/admin_gDzNydO.py",
+        "file_type": "file"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 79,
+    "fields": {
+        "post": 38,
+        "file": "files/shakira_kBwGgHf.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 90,
+    "fields": {
+        "post": 36,
+        "file": "files/rianna.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.media",
+    "pk": 91,
+    "fields": {
+        "post": 38,
+        "file": "files/rianna_FTGd2U3.jpg",
+        "file_type": "img"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 13,
+    "fields": {
+        "post": 24,
+        "user": [
+            "admin"
+        ],
+        "acception": true,
+        "time": "2024-05-22T20:19:58.874Z",
+        "text": "Какая замечательная статья!\r\nЭто пять!"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 35,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:26:34.348Z",
+        "text": "Собственный комментарий юзера 2"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 36,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:38:44.561Z",
+        "text": "dqwdq"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 37,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:42:18.769Z",
+        "text": "efwef"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 38,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:43:04.610Z",
+        "text": "wdfqw"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 39,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:46:23.000Z",
+        "text": "fwew"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 40,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:52:06.016Z",
+        "text": "fwefwf"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 41,
+    "fields": {
+        "post": 24,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:52:16.628Z",
+        "text": "qwertyuiop[]"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 42,
+    "fields": {
+        "post": 24,
+        "user": [
+            "admin"
+        ],
+        "acception": true,
+        "time": "2024-05-29T18:53:29.465Z",
+        "text": "dqwdqwdqw"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 43,
+    "fields": {
+        "post": 24,
+        "user": [
+            "admin"
+        ],
+        "acception": false,
+        "time": "2024-05-30T18:44:09.851Z",
+        "text": "Комментарий админа"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 44,
+    "fields": {
+        "post": 36,
+        "user": [
+            "admin"
+        ],
+        "acception": true,
+        "time": "2024-05-30T18:44:41.136Z",
+        "text": "1 у ауц cfwefewfgw"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 46,
+    "fields": {
+        "post": 36,
+        "user": [
+            "user1"
+        ],
+        "acception": false,
+        "time": "2024-05-30T21:32:34.913Z",
+        "text": "Проверка функции email wefwe"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 47,
+    "fields": {
+        "post": 36,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-30T22:41:36.045Z",
+        "text": "asdasd"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 49,
+    "fields": {
+        "post": 36,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-30T22:51:05.733Z",
+        "text": "dqdqwd"
+    }
+},
+{
+    "model": "content.comment",
+    "pk": 50,
+    "fields": {
+        "post": 36,
+        "user": [
+            "user2"
+        ],
+        "acception": true,
+        "time": "2024-05-30T22:51:41.461Z",
+        "text": "dqdqw"
+    }
+},
+{
+    "model": "account.emailaddress",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "user3"
+        ],
+        "email": "sabanchini@gmail.com",
+        "verified": true,
+        "primary": true
+    }
+},
+{
+    "model": "django_apscheduler.djangojob",
+    "pk": "delete_old_job_executions",
+    "fields": {
+        "next_run_time": "2024-06-10T00:00:00Z",
+        "job_state": "gAWVUgQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjERjb250ZW50Lm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzY2hlZHVsZXI6ZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMA1VUQ5RLAYaUUpSMCnN0YXJ0X2RhdGWUTowIZW5kX2RhdGWUTowGZmllbGRzlF2UKIwgYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5maWVsZHOUjAlCYXNlRmllbGSUk5QpgZR9lCiMBG5hbWWUjAR5ZWFylIwKaXNfZGVmYXVsdJSIjAtleHByZXNzaW9uc5RdlIwlYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5leHByZXNzaW9uc5SMDUFsbEV4cHJlc3Npb26Uk5QpgZR9lIwEc3RlcJROc2JhdWJoHYwKTW9udGhGaWVsZJSTlCmBlH2UKGgijAVtb250aJRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MD0RheU9mTW9udGhGaWVsZJSTlCmBlH2UKGgijANkYXmUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjAlXZWVrRmllbGSUk5QpgZR9lChoIowEd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MDkRheU9mV2Vla0ZpZWxklJOUKYGUfZQoaCKMC2RheV9vZl93ZWVrlGgkiWglXZRoJ4wWV2Vla2RheVJhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTowFZmlyc3SUSwCMBGxhc3SUSwB1YmF1YmgfKYGUfZQoaCKMBGhvdXKUaCSJaCVdlGgnjA9SYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE5oT0sAaFBLAHViYXViaB8pgZR9lChoIowGbWludXRllGgkiWglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJoHymBlH2UKGgijAZzZWNvbmSUaCSIaCVdlGhWKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmWMBmppdHRlcpROdWKMCGV4ZWN1dG9ylIwHZGVmYXVsdJSMBGFyZ3OUKYwGa3dhcmdzlH2UaCJoA4wSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+gGCgAAAAAAAJRoGIaUUpR1Lg=="
+    }
+},
+{
+    "model": "django_apscheduler.djangojob",
+    "pk": "my_job",
+    "fields": {
+        "next_run_time": "2024-06-11T18:07:00Z",
+        "job_state": "gAWVLAQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwGbXlfam9ilIwEZnVuY5SMMWNvbnRlbnQubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNjaGVkdWxlcjpteV9qb2KUjAd0cmlnZ2VylIwZYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3JvbpSMC0Nyb25UcmlnZ2VylJOUKYGUfZQoaAFLAowIdGltZXpvbmWUjAhidWlsdGluc5SMB2dldGF0dHKUk5SMCHpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjANVVEOUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIloJV2UaCeMFldlZWtkYXlSYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE6MBWZpcnN0lEsBjARsYXN0lEsBdWJhdWJoHymBlH2UKGgijARob3VylGgkiWglXZRoJ4wPUmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOaE9LEmhQSxJ1YmF1YmgfKYGUfZQoaCKMBm1pbnV0ZZRoJIloJV2UaFYpgZR9lChoLE5oT0sHaFBLB3ViYXViaB8pgZR9lChoIowGc2Vjb25klGgkiGglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgiaAOMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfoBgsSBwAAAACUaBiGlFKUdS4="
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 1,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:05:50Z",
+        "duration": "0.01",
+        "finished": "1717517150.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 2,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:06:00Z",
+        "duration": "0.01",
+        "finished": "1717517160.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 3,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:06:10Z",
+        "duration": "0.00",
+        "finished": "1717517170.00",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 4,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:22:20Z",
+        "duration": "0.02",
+        "finished": "1717518140.02",
+        "exception": "'function' object has no attribute 'all'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    context_obj.subscribers = User.objects.filter.all()\n                              ^^^^^^^^^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 5,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:22:30Z",
+        "duration": "0.01",
+        "finished": "1717518150.01",
+        "exception": "'function' object has no attribute 'all'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    context_obj.subscribers = User.objects.filter.all()\n                              ^^^^^^^^^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 6,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:22:40Z",
+        "duration": "0.01",
+        "finished": "1717518160.01",
+        "exception": "'function' object has no attribute 'all'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    context_obj.subscribers = User.objects.filter.all()\n                              ^^^^^^^^^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 7,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:22:50Z",
+        "duration": "0.01",
+        "finished": "1717518170.01",
+        "exception": "'function' object has no attribute 'all'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    context_obj.subscribers = User.objects.all()\n                              ^^^^^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 8,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:23:00Z",
+        "duration": "0.02",
+        "finished": "1717518180.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 9,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:23:10Z",
+        "duration": "0.01",
+        "finished": "1717518190.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 10,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:23:20Z",
+        "duration": "0.01",
+        "finished": "1717518200.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 11,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:24:50Z",
+        "duration": "0.02",
+        "finished": "1717518290.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 12,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:25:00Z",
+        "duration": "0.01",
+        "finished": "1717518300.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 13,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:25:10Z",
+        "duration": "0.01",
+        "finished": "1717518310.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 14,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:37:00Z",
+        "duration": "0.02",
+        "finished": "1717519020.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 15,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:37:10Z",
+        "duration": "0.01",
+        "finished": "1717519030.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 16,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:37:20Z",
+        "duration": "0.01",
+        "finished": "1717519040.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 17,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:37:30Z",
+        "duration": "0.01",
+        "finished": "1717519050.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 18,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:37:40Z",
+        "duration": "0.01",
+        "finished": "1717519060.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 19,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:37:50Z",
+        "duration": "0.02",
+        "finished": "1717519070.02",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.user)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 20,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:38:00Z",
+        "duration": "0.01",
+        "finished": "1717519080.01",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.user)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 21,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:38:10Z",
+        "duration": "0.01",
+        "finished": "1717519090.01",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.user)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 22,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:38:20Z",
+        "duration": "0.01",
+        "finished": "1717519100.01",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.user)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 23,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:38:30Z",
+        "duration": "0.01",
+        "finished": "1717519110.01",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.user)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 24,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T16:38:40Z",
+        "duration": "0.00",
+        "finished": "1717519120.00",
+        "exception": "'User' object has no attribute 'user'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 31, in my_job\n    subscribers_list.append(subscriber.username)\n                            ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 25,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:38:50Z",
+        "duration": "0.02",
+        "finished": "1717519130.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 26,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:39:00Z",
+        "duration": "0.01",
+        "finished": "1717519140.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 27,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:39:10Z",
+        "duration": "0.01",
+        "finished": "1717519150.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 28,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:39:20Z",
+        "duration": "0.02",
+        "finished": "1717519160.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 29,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:39:40Z",
+        "duration": "0.02",
+        "finished": "1717519180.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 30,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:39:50Z",
+        "duration": "0.02",
+        "finished": "1717519190.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 31,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:40:00Z",
+        "duration": "0.02",
+        "finished": "1717519200.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 32,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:42:40Z",
+        "duration": "0.02",
+        "finished": "1717519360.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 33,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:42:50Z",
+        "duration": "0.01",
+        "finished": "1717519370.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 34,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:43:40Z",
+        "duration": "0.02",
+        "finished": "1717519420.02",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 35,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:43:50Z",
+        "duration": "0.01",
+        "finished": "1717519430.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 36,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T16:44:00Z",
+        "duration": "0.01",
+        "finished": "1717519440.01",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 37,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T17:11:00Z",
+        "duration": "2.40",
+        "finished": "1717521062.40",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 38,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T17:50:00Z",
+        "duration": "0.03",
+        "finished": "1717523400.03",
+        "exception": "'QuerySet' object has no attribute 'url'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 41, in my_job\n    print(context_obj.url)\n          ^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 39,
+    "fields": {
+        "job": "my_job",
+        "status": "Error!",
+        "run_time": "2024-06-04T17:52:00Z",
+        "duration": "0.04",
+        "finished": "1717523520.04",
+        "exception": "'QuerySet' object has no attribute 'post_set'",
+        "traceback": "  File \"/Users/igor/Rep/D_Backend/final_task/venv/lib/python3.11/site-packages/apscheduler/executors/base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/igor/Rep/D_Backend/final_task/project/content/management/commands/runapscheduler.py\", line 53, in my_job\n    body=f\"Сводка объявлений опубликованных за неделю: {context_obj.post_set}\",\n                                                        ^^^^^^^^^^^^^^^^^^^^\n"
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 40,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T17:58:00Z",
+        "duration": "2.51",
+        "finished": "1717523882.51",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 41,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T18:05:00Z",
+        "duration": "2.79",
+        "finished": "1717524302.79",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 42,
+    "fields": {
+        "job": "my_job",
+        "status": "Executed",
+        "run_time": "2024-06-04T18:07:00Z",
+        "duration": "2.40",
+        "finished": "1717524422.40",
+        "exception": null,
+        "traceback": null
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-05-03T13:19:29.839Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Post object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-05-03T13:19:46.397Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Post object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-05-20T17:56:52.801Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "22",
+        "object_repr": "Post object (22)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.232Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "35",
+        "object_repr": "dwdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.237Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "34",
+        "object_repr": "wdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.239Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "33",
+        "object_repr": "dqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.241Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "32",
+        "object_repr": "qwdwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.245Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "31",
+        "object_repr": "dqwd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.247Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "30",
+        "object_repr": "dqwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.250Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "29",
+        "object_repr": "dwqdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.252Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "28",
+        "object_repr": "dqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.254Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "27",
+        "object_repr": "Пост юзера 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.256Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "26",
+        "object_repr": "фвйцй",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.259Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "25",
+        "object_repr": "вйцвй",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.261Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "23",
+        "object_repr": "dsfagreag",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.263Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "21",
+        "object_repr": "edwe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.266Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "20",
+        "object_repr": "wqdw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.268Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "19",
+        "object_repr": "wdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.270Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "18",
+        "object_repr": "adwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.272Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "17",
+        "object_repr": "dqwdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.274Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "16",
+        "object_repr": "dwdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.275Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "15",
+        "object_repr": "sadas",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.277Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "14",
+        "object_repr": "dwqdwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.279Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "13",
+        "object_repr": "dwqdwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.280Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "12",
+        "object_repr": "dwqdwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.282Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "11",
+        "object_repr": "dwqdwq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.283Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "10",
+        "object_repr": "ssadd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.285Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "9",
+        "object_repr": "sfasf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.286Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "8",
+        "object_repr": "dwqdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.287Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "7",
+        "object_repr": "wdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.289Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "6",
+        "object_repr": "dqwdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.290Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "5",
+        "object_repr": "вывм",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.292Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "vsdvs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.293Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "qwe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.295Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-05-29T18:13:16.296Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-06-04T10:12:52.292Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "user3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-06-04T10:12:52.296Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "user4",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-06-04T10:12:52.298Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "user5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-06-04T10:12:52.300Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "user6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-06-04T10:12:52.302Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "user7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.642Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "47",
+        "object_repr": "qwdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.647Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "46",
+        "object_repr": "dwedqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.648Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "45",
+        "object_repr": "daw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.650Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "44",
+        "object_repr": "wqdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.652Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "43",
+        "object_repr": "wqdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.653Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "42",
+        "object_repr": "wqdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.655Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "41",
+        "object_repr": "dwqdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.656Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "40",
+        "object_repr": "dwqdq",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-06-05T22:03:40.658Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "content",
+            "post"
+        ],
+        "object_id": "39",
+        "object_repr": "dwdqwdqw",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

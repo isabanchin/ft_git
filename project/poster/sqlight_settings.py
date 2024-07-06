@@ -11,10 +11,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-import os
-from dotenv import load_dotenv, find_dotenv
-
-load_dotenv(find_dotenv())
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -89,23 +85,13 @@ WSGI_APPLICATION = 'poster.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_ft',
-        'USER': 'admin',
-        'PASSWORD': '123',
-        'HOST': 'localhost',      #или '127.0.0.1'
-        'PORT': '5432',
-    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -157,8 +143,8 @@ LOGIN_URL = '/accounts/login/'
 
 EMAIL_HOST = 'smtp.yandex.ru'  # адрес сервера Яндекс-почты для всех один и тот же
 EMAIL_PORT = 465  # порт smtp сервера тоже одинаковый
-EMAIL_HOST_USER = os.getenv('EMAIL')  # ваше имя пользователя user из user@yandex.ru
-EMAIL_HOST_PASSWORD = os.getenv('PASSWORD')  # пароль от почты
+EMAIL_HOST_USER = 'sabanchini'  # ваше имя пользователя user из user@yandex.ru
+EMAIL_HOST_PASSWORD = 'qhshurrwwdduzgdx'  # пароль от почты
 EMAIL_USE_SSL = True  # Яндекс использует ssl, подробнее о том, что это, почитайте на Википедии, но включать его здесь обязательно
 
 # здесь ПОЛНУЮ почту с которой будут отправляться письма
